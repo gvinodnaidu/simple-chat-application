@@ -1,0 +1,480 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:33:9-42:20
+	android:grantUriPermissions
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:37:13-47
+	android:authorities
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:35:13-60
+	android:exported
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:34:13-67
+manifest
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:2:1-45:12
+MERGED from [com.firebaseui:firebase-ui-database:6.2.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\2f5cd79df07a9e0833ea5612023710d0\firebase-ui-database-6.2.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:16:1-26:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f08f26b738e536efc3a40e59b9588032\glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [hani.momanii.supernova_emoji_library:supernova-emoji-library:0.0.2] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\16bfe4478a0b6e1854c457dbff9c6673\jetified-supernova-emoji-library-0.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [me.himanshusoni.chatmessageview:chat-message-view:1.0.3] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3dc2eb424f683395098b890f116d8226\chat-message-view-1.0.3\AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-places:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8624e6fca25fb3b19edcd325dd00f3e0\jetified-play-services-places-9.2.0\AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-ads:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\61e2a20300484d68d5cc7e6bae7c35da\play-services-ads-19.2.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\68dd590321da53844fc859861b272820\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\debd70e42d2284fe791e96c9c76092fa\firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\fa3d7eac296077651560ac3933490b85\firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\7a0007ea31613d2bca2a50cc8513fd66\jetified-play-services-auth-api-phone-11.4.0\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\2171ad9d9f27a0c790263c02fd7dbf7b\jetified-play-services-auth-base-11.4.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-gass:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\45e230e0bd48c7c6fae3d148dbcd204a\play-services-gass-19.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f753adbd07fbe4faac50d5081095fbc\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a3308b054d1f058276f591087c34683f\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75177d22f3a0e17198b73172810d7044\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f13e06dec4f072c81183954a18968fc\jetified-play-services-measurement-base-17.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a59a345f4b1d6111548bfb36ee19392d\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\fc5ce96d0556e9e525188cc47c233aa7\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\7b9058aa220acfc1aa74691f88642d81\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\40bbc984b9c1517e02de0b86fae8070b\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\1b7b48b045ce1097f1500eb55104b991\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8e786bc73f61bd506822737a0bb7f414\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\80dd1dc019436116365faa921b9a8769\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\d3e38a4ee70dd28ca131c75161280cc6\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f421809cc47bdf09cae3bc6ccc8854be\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8b5f852ea07e3e59838d34b817ca41ac\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\0e9d2ae9f4afac9ea1a0a04f8350196c\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a7011598f59e172de544a26d965b0d78\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\43eb2d2e7e68e27bf73363f2db15d7be\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9b7e45c58cebb575e288256b9a954c33\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\fdcb254cec2eda61cf9d0e6a91c1273a\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8edbe4828053aa32803870b9ad9f8232\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\5f28d343dd8fb9fb697fcb69250470d9\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\1921e8b00664583b96275b63e35c8fb2\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\62286212cda004e24413d818cafe8db8\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b3eceaf6e5cc2df4bb865a5445be6293\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\479b65f55e243bd979c2370d6cf760cc\gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\57cf0d5bbd0ff47d5481bce314b79733\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-common:6.2.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b90d94068b1914c31b8a140e479bf7c5\firebase-ui-common-6.2.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\40211b48e1fd6597c46fa7fb3bdc27f4\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\10c582a6c9d10d357ca6c4650e6b6d1c\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f8a366e57dff09c00193bb4b84f0896\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8a144bf192d6484f4ce6240d7fa27967\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\4b17712f17b32f24acf8ec9de6f31f74\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b6f43387dd7e9eafec00725aa0944ecc\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\744e890fd9c2229fd55f0f204e895827\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\72cbc39fa25a246d7e646058ccbab8e7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a19056003d7a5f2bc9cc665fd561b346\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\662f83f6fe71c831e9a39bede63bca40\play-services-ads-base-19.2.0\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.firebaseui:firebase-ui-database:6.2.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\2f5cd79df07a9e0833ea5612023710d0\firebase-ui-database-6.2.1\AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:6.2.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\2f5cd79df07a9e0833ea5612023710d0\firebase-ui-database-6.2.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75177d22f3a0e17198b73172810d7044\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75177d22f3a0e17198b73172810d7044\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75177d22f3a0e17198b73172810d7044\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75177d22f3a0e17198b73172810d7044\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:9:22-76
+application
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:11:5-43:19
+MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:19:5-25:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f08f26b738e536efc3a40e59b9588032\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f08f26b738e536efc3a40e59b9588032\glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [me.himanshusoni.chatmessageview:chat-message-view:1.0.3] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3dc2eb424f683395098b890f116d8226\chat-message-view-1.0.3\AndroidManifest.xml:11:5-14:19
+MERGED from [me.himanshusoni.chatmessageview:chat-message-view:1.0.3] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3dc2eb424f683395098b890f116d8226\chat-message-view-1.0.3\AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.android.gms:play-services-places:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8624e6fca25fb3b19edcd325dd00f3e0\jetified-play-services-places-9.2.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8624e6fca25fb3b19edcd325dd00f3e0\jetified-play-services-places-9.2.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\68dd590321da53844fc859861b272820\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\68dd590321da53844fc859861b272820\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-gass:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\45e230e0bd48c7c6fae3d148dbcd204a\play-services-gass-19.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\45e230e0bd48c7c6fae3d148dbcd204a\play-services-gass-19.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f753adbd07fbe4faac50d5081095fbc\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f753adbd07fbe4faac50d5081095fbc\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a3308b054d1f058276f591087c34683f\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a3308b054d1f058276f591087c34683f\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f13e06dec4f072c81183954a18968fc\jetified-play-services-measurement-base-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f13e06dec4f072c81183954a18968fc\jetified-play-services-measurement-base-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\1921e8b00664583b96275b63e35c8fb2\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\1921e8b00664583b96275b63e35c8fb2\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\62286212cda004e24413d818cafe8db8\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\62286212cda004e24413d818cafe8db8\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\479b65f55e243bd979c2370d6cf760cc\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\479b65f55e243bd979c2370d6cf760cc\gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\662f83f6fe71c831e9a39bede63bca40\play-services-ads-base-19.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\662f83f6fe71c831e9a39bede63bca40\play-services-ads-base-19.2.0\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\1921e8b00664583b96275b63e35c8fb2\core-1.0.0\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:16:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:17:9-19:61
+	android:value
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:19:13-58
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:18:13-58
+activity#alessandro.firebaseandroid.MainActivity
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:21:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:25:27-74
+activity#alessandro.firebaseandroid.view.LoginActivity
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:28:9-56
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:28:19-53
+activity#alessandro.firebaseandroid.view.FullScreenImageActivity
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:29:9-32:20
+	android:theme
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:31:13-57
+uses-sdk
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+MERGED from [com.firebaseui:firebase-ui-database:6.2.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\2f5cd79df07a9e0833ea5612023710d0\firebase-ui-database-6.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:6.2.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\2f5cd79df07a9e0833ea5612023710d0\firebase-ui-database-6.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:17:5-43
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f08f26b738e536efc3a40e59b9588032\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f08f26b738e536efc3a40e59b9588032\glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [hani.momanii.supernova_emoji_library:supernova-emoji-library:0.0.2] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\16bfe4478a0b6e1854c457dbff9c6673\jetified-supernova-emoji-library-0.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [hani.momanii.supernova_emoji_library:supernova-emoji-library:0.0.2] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\16bfe4478a0b6e1854c457dbff9c6673\jetified-supernova-emoji-library-0.0.2\AndroidManifest.xml:6:5-8:41
+MERGED from [me.himanshusoni.chatmessageview:chat-message-view:1.0.3] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3dc2eb424f683395098b890f116d8226\chat-message-view-1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [me.himanshusoni.chatmessageview:chat-message-view:1.0.3] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3dc2eb424f683395098b890f116d8226\chat-message-view-1.0.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-places:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8624e6fca25fb3b19edcd325dd00f3e0\jetified-play-services-places-9.2.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8624e6fca25fb3b19edcd325dd00f3e0\jetified-play-services-places-9.2.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\61e2a20300484d68d5cc7e6bae7c35da\play-services-ads-19.2.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\61e2a20300484d68d5cc7e6bae7c35da\play-services-ads-19.2.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\68dd590321da53844fc859861b272820\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\68dd590321da53844fc859861b272820\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\debd70e42d2284fe791e96c9c76092fa\firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\debd70e42d2284fe791e96c9c76092fa\firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\fa3d7eac296077651560ac3933490b85\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\fa3d7eac296077651560ac3933490b85\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\7a0007ea31613d2bca2a50cc8513fd66\jetified-play-services-auth-api-phone-11.4.0\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\7a0007ea31613d2bca2a50cc8513fd66\jetified-play-services-auth-api-phone-11.4.0\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\2171ad9d9f27a0c790263c02fd7dbf7b\jetified-play-services-auth-base-11.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\2171ad9d9f27a0c790263c02fd7dbf7b\jetified-play-services-auth-base-11.4.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\45e230e0bd48c7c6fae3d148dbcd204a\play-services-gass-19.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\45e230e0bd48c7c6fae3d148dbcd204a\play-services-gass-19.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f753adbd07fbe4faac50d5081095fbc\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f753adbd07fbe4faac50d5081095fbc\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a3308b054d1f058276f591087c34683f\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a3308b054d1f058276f591087c34683f\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75177d22f3a0e17198b73172810d7044\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75177d22f3a0e17198b73172810d7044\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f13e06dec4f072c81183954a18968fc\jetified-play-services-measurement-base-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f13e06dec4f072c81183954a18968fc\jetified-play-services-measurement-base-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a59a345f4b1d6111548bfb36ee19392d\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a59a345f4b1d6111548bfb36ee19392d\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\fc5ce96d0556e9e525188cc47c233aa7\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\fc5ce96d0556e9e525188cc47c233aa7\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\7b9058aa220acfc1aa74691f88642d81\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\7b9058aa220acfc1aa74691f88642d81\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\40bbc984b9c1517e02de0b86fae8070b\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\40bbc984b9c1517e02de0b86fae8070b\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\1b7b48b045ce1097f1500eb55104b991\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\1b7b48b045ce1097f1500eb55104b991\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8e786bc73f61bd506822737a0bb7f414\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8e786bc73f61bd506822737a0bb7f414\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\80dd1dc019436116365faa921b9a8769\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\80dd1dc019436116365faa921b9a8769\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\d3e38a4ee70dd28ca131c75161280cc6\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\d3e38a4ee70dd28ca131c75161280cc6\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f421809cc47bdf09cae3bc6ccc8854be\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f421809cc47bdf09cae3bc6ccc8854be\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8b5f852ea07e3e59838d34b817ca41ac\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8b5f852ea07e3e59838d34b817ca41ac\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\0e9d2ae9f4afac9ea1a0a04f8350196c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\0e9d2ae9f4afac9ea1a0a04f8350196c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a7011598f59e172de544a26d965b0d78\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a7011598f59e172de544a26d965b0d78\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\43eb2d2e7e68e27bf73363f2db15d7be\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\43eb2d2e7e68e27bf73363f2db15d7be\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9b7e45c58cebb575e288256b9a954c33\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9b7e45c58cebb575e288256b9a954c33\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\fdcb254cec2eda61cf9d0e6a91c1273a\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\fdcb254cec2eda61cf9d0e6a91c1273a\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8edbe4828053aa32803870b9ad9f8232\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8edbe4828053aa32803870b9ad9f8232\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\5f28d343dd8fb9fb697fcb69250470d9\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\5f28d343dd8fb9fb697fcb69250470d9\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\1921e8b00664583b96275b63e35c8fb2\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\1921e8b00664583b96275b63e35c8fb2\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\62286212cda004e24413d818cafe8db8\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\62286212cda004e24413d818cafe8db8\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b3eceaf6e5cc2df4bb865a5445be6293\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b3eceaf6e5cc2df4bb865a5445be6293\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\479b65f55e243bd979c2370d6cf760cc\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\479b65f55e243bd979c2370d6cf760cc\gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\57cf0d5bbd0ff47d5481bce314b79733\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\57cf0d5bbd0ff47d5481bce314b79733\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-common:6.2.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b90d94068b1914c31b8a140e479bf7c5\firebase-ui-common-6.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-common:6.2.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b90d94068b1914c31b8a140e479bf7c5\firebase-ui-common-6.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\40211b48e1fd6597c46fa7fb3bdc27f4\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\40211b48e1fd6597c46fa7fb3bdc27f4\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\10c582a6c9d10d357ca6c4650e6b6d1c\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\10c582a6c9d10d357ca6c4650e6b6d1c\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f8a366e57dff09c00193bb4b84f0896\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\9f8a366e57dff09c00193bb4b84f0896\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8a144bf192d6484f4ce6240d7fa27967\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\8a144bf192d6484f4ce6240d7fa27967\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\4b17712f17b32f24acf8ec9de6f31f74\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\4b17712f17b32f24acf8ec9de6f31f74\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b6f43387dd7e9eafec00725aa0944ecc\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b6f43387dd7e9eafec00725aa0944ecc\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\744e890fd9c2229fd55f0f204e895827\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\744e890fd9c2229fd55f0f204e895827\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\72cbc39fa25a246d7e646058ccbab8e7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\72cbc39fa25a246d7e646058ccbab8e7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a19056003d7a5f2bc9cc665fd561b346\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a19056003d7a5f2bc9cc665fd561b346\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\662f83f6fe71c831e9a39bede63bca40\play-services-ads-base-19.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\662f83f6fe71c831e9a39bede63bca40\play-services-ads-base-19.2.0\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\61e2a20300484d68d5cc7e6bae7c35da\play-services-ads-19.2.0\AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:39:13-41:57
+	android:resource
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:41:17-55
+	android:name
+		ADDED from C:\Users\vinod\Desktop\android\FirebaseAndroidChat-master\app\src\main\AndroidManifest.xml:40:17-67
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\f359e56a0314848e22bca824032beed7\firebase-database-19.3.1\AndroidManifest.xml:33:17-109
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a965e02da0dc74b3cb82526fa169fefe\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.4.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\b7e991e5e19b00e03febc4878b8fb28b\jetified-play-services-auth-11.4.0\AndroidManifest.xml:24:18-63
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\c8c55a9dfb88ee84ed4b575295b8e34f\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\3deb10f8139ef5717b3d54ada2a19ca4\firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\133e9532899d1baeac9b6bd495817337\jetified-play-services-maps-9.2.0\AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75e7c473eccef2b3a0eec97fa3a7825b\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\a0b0e09f487b253990a02895eca106eb\play-services-ads-lite-19.2.0\AndroidManifest.xml:36:13-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75177d22f3a0e17198b73172810d7044\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\75177d22f3a0e17198b73172810d7044\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\vinod\.gradle\caches\transforms-2\files-2.1\164bb505b81f338baa0db13edd04c1d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

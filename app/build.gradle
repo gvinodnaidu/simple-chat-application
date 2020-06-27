@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "alessandro.firebaseandroid"
+        minSdkVersion 17
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.firebase:firebase-inappmessaging-display:19.0.7'
+    testImplementation 'junit:junit:4.13'
+    implementation 'com.google.firebase:firebase-database:19.3.1'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'com.google.android.gms:play-services-auth:11.4.0'
+
+
+    //IMAGE LOAD
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    //CHAT UI
+    implementation 'hani.momanii.supernova_emoji_library:supernova-emoji-library:0.0.2'
+    implementation 'me.himanshusoni.chatmessageview:chat-message-view:1.0.3'
+
+    // AUTH
+    implementation 'com.google.android.gms:play-services-auth:11.4.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+
+    //DATABASE FIREBASE,UI
+    implementation 'com.google.firebase:firebase-database:19.3.1'
+    implementation 'com.firebaseui:firebase-ui-database:6.2.1'
+
+    //STORAGE FIREBASE
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+
+    //Places SERVICES
+    implementation 'com.google.android.gms:play-services-places:9.2.0'
+    implementation 'com.google.android.gms:play-services-ads:19.2.0'
+
+
+}
+apply plugin: 'com.google.gms.google-services'
